@@ -1,0 +1,7 @@
+services:
+    #
+    # General Services
+    #
+    examples.api.bridge:
+        class: AppBundle\Service\ApiBridgeService
+        arguments: ["%api_host%"]
